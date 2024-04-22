@@ -1,0 +1,23 @@
+		 mycolor
+C:\>md demo
+C:\>cd demo
+C:\demo>ng new databind-app
+C:\demo>cd databind-app
+C:\demo\databind-app>ng generate component test
+
+C:\demo\databind-app>code .					src-->App-->test
+-------------------------------------------------------------------------------------------
+test.component.ts
+myColor = 'brown';
+-------------------------------------------------------------------------------------------
+test.component.html.
+<p [style.color]="myColor">Text color is styled using style binding</p>
+-------------------------------------------------------------------------------------------
+
+app.component.html 
+	
+
+C:\demo\databind-app>npm install querystring
+
+C:\demo\databind-app>ng serve
+
